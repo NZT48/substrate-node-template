@@ -28,7 +28,9 @@ frame-system-rpc-runtime-api = { default-features = false, version = '3.0.0' }
 pallet-aura = { default-features = false, version = '3.0.0' }
 pallet-balances = { default-features = false, version = '3.0.0' }
 pallet-grandpa = { default-features = false, version = '3.0.0' }
+pallet-multisig = { version= '3.0.0', default-features = false }
 pallet-randomness-collective-flip = { default-features = false, version = '3.0.0' }
+pallet-scheduler = { version = '3.0.0', default-features = false }
 pallet-sudo = { default-features = false, version = '3.0.0' }
 pallet-timestamp = { default-features = false, version = '3.0.0' }
 pallet-transaction-payment = { default-features = false, version = '3.0.0' }
@@ -70,7 +72,9 @@ std = [
     'pallet-aura/std',
     'pallet-balances/std',
     'pallet-grandpa/std',
+    'pallet-multisig/std',
     'pallet-randomness-collective-flip/std',
+    'pallet-scheduler/std',
     'pallet-sudo/std',
     'pallet-template/std',
     'pallet-timestamp/std',
